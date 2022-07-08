@@ -3,6 +3,7 @@
 	"version": "9.14.1",
 	"description": "A small installer util that will create a directory, add boilerplate folders, and install Directus through npm.",
 	"main": "lib/index.js",
+	"repository": "directus/create-directus-project",
 	"exports": {
 		".": "./lib/index.js",
 		"./package.json": "./package.json"
