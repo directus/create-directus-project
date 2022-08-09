@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Prepare
+        uses: ./.github/actions/prepare
+
       - name: Publish Packages
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
